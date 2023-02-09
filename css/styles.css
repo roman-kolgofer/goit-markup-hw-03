@@ -1,0 +1,118 @@
+:root {
+  --color-primary-brand: #4d5ae5;
+  --color-pressed-state: #404bbf;
+  --color-dark: #2e2f42;
+  --color-text: #434455;
+  --color-accent: #e7e9fc;
+  --color-light: #f4f4fd;
+  --color-main: #ffffff;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+  background-color: var(--color-main);
+}
+ul {
+  list-style-type: none;
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  color: var(--color-dark);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.footer .logo {
+  line-height: 1.16;
+  color: var(--color-light);
+}
+.logo-brand {
+  color: var(--color-primary-brand);
+}
+.navigation-link {
+  color: var(--color-dark);
+  font-weight: 500;
+  text-decoration: none;
+}
+.navigation-link.current,
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--color-pressed-state);
+}
+.contacts-item {
+  color: var(--color-text);
+  font-style: normal;
+  text-decoration: none;
+}
+.contacts-item:hover,
+.contacts-item:focus {
+  color: var(--color-pressed-state);
+}
+.hero {
+  background-color: var(--color-dark);
+}
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  color: var(--color-main);
+  text-align: center;
+}
+.hero-button {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-main);
+  background-color: var(--color-primary-brand);
+  border: none;
+  cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--color-pressed-state);
+}
+.section-subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--color-dark);
+}
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--color-dark);
+}
+.section-team {
+  background-color: var(--color-light);
+}
+.footer {
+  background-color: var(--color-dark);
+}
+.footer-text {
+  color: var(--color-accent);
+}
+.filter-button {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-primary-brand);
+  background-color: var(--color-light);
+  border: none;
+  cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--color-main);
+  background-color: var(--color-pressed-state);
+}
