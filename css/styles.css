@@ -83,6 +83,7 @@ button {
 
 .header-container {
   display: flex;
+  align-items: center;
 }
 
 .header-navigation {
@@ -159,10 +160,13 @@ button {
 }
 
 .hero-title {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
   font-size: 56px;
   line-height: 1.07;
   color: var(--color-main);
-  margin-bottom: 48px;
 }
 
 .hero-button {
@@ -283,7 +287,7 @@ button {
 }
 
 .project-card {
-  flex-basis: calc((100% - 72px) / 3);
+  flex-basis: calc((100% - 48px) / 3);
 }
 
 .project-card .section-subtitle {
@@ -307,7 +311,8 @@ button {
 
 .footer .logo {
   display: block;
-  padding-bottom: 16px;
+  margin-right: 0;
+  margin-bottom: 16px;
   line-height: 1.16;
   color: var(--color-light);
 }
